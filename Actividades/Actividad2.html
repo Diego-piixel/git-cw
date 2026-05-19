@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewpport" content="width=device-width, inicial.scale=1.0">
+  <meta name="author" content="López Mayen Diego">
+  <meta name="descripcion" content="Explicando un codigo de c en html">
+  <title></title>
+</head>
+<body>
+
+  <h1> Explicando un codigo de c en html.</h1>
+  <h2> Código.</h2>
+  <hr>
+  <pre><code>
+
+  #include &lt;stdio.h&gt;
+
+
+  int main() {
+    int edad;
+    printf("¿Cuántos años tienes? ");
+    scanf("%d", &edad);
+
+
+    if (edad >= 18) {
+        printf("Eres mayor de edad.\n");
+    } else {
+        printf("Eres menor de edad.\n");
+    }
+
+
+    return 0;
+  }
+
+
+  </code></pre>
+  <hr>
+  <h2>Explicación.</h2>
+  <hr>
+  <p><code> #include &lt;stdio.h&gt;</code></p>
+  <p>Agrega la libreria stdio.h</p>
+  <p><code> int main() </code></p>
+  <p>Define la función principal del programa.</p>
+  <p><code> int edad; </code></p>
+  <p>Declara una variable de tipo entera llamada edad.</p>
+  <p><code> printf("¿Cuántos años tienes? "); </code></p>
+  <p>Manda a pantalla el mensaje "¿Cuántos años tienes? ".</p>
+  <p><code> scanf("%d", &edad); </code></p>
+  <p>Pide al usuario introducir un valor que se almacenará en la variable edad. <br> 
+    El & indica la dirección de memoria de edad, necesaria para que scanf pueda modificarla.</p>
+  <pre><code>
+if (edad >= 18) {
+    printf("Eres mayor de edad.\n");
+} else {
+    printf("Eres menor de edad.\n");
+}
+  </code></pre>
+  <p>Si edad es igual o mayor a 18 madará a pantalla el mensaje "Eres mayor de edad"<br>
+    y se realizará un cambio de linea, en caso contrario, se mostrará el mensaje<br>
+    "Eres menor de edad" y se realizará un cambio de linea.</p>
+  <p><code> return 0; </code></p>
+  <p>Finaliza la función main.</p>
+  <hr>
+</body>
+</html>
