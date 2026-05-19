@@ -25,7 +25,7 @@ Algo sobre mí :  Me gusta lapizza XD
 
 - Nadar
 - Jugar tenis
--Programar en c
+- Programar en c
 
 ---
 
@@ -46,9 +46,9 @@ Algo sobre mí :  Me gusta lapizza XD
 **Qué hacer:** Escribe tres cosas concretas que aprendiste en esta sesión.  
 **Commit:** `docs(aprendizaje): agrega notas de la sesión`
 
-1. 
-2. 
-3. 
+1. Que es un repositorio
+2. Diferencia entre Git Github y Gitlab
+3. Los diferentes comandos
 
 ---
 
