@@ -59,12 +59,12 @@ Algo sobre mí :  Me gusta lapizza XD
 
 | Comando | ¿Qué hace? |
 |---------|------------|
-| `git init` | |
-| `git status` | |
-| `git add .` | |
-| `git commit -m "..."` | |
-| `git log --oneline` | |
-| `git push` | |
+| `git init` |Inicializa un nuevo repositorio Git en la carpeta actual, creando la subcarpeta   oculta .git/ donde se guarda toda la información del control de versiones.|
+| `git status` |Muestra el estado del repositorio: archivos modificados, en staging, sin seguimiento, y la rama activa. |
+| `git add .` |Añade todos los archivos modificados y nuevos al área de staging (preparación) para incluirlos en el próximo commit. |
+| `git commit -m "..."` |Crea un commit con los cambios que están en staging, guardando una instantánea del proyecto junto con un mensaje descriptivo. |
+| `git log --oneline` |Muestra el historial de commits en una forma resumida: un identificador corto y el mensaje de cada commit. |
+| `git push` |Envía los commits locales al repositorio remoto (por ejemplo, en GitHub), actualizando la rama correspondiente en el servidor. |
 
 ---
 
